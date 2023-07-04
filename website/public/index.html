@@ -8,14 +8,16 @@
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <!-- Site Metas -->
+    
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Test</title>
-
+    <title>Auto Guard</title>
+    <link rel="icon" type="image/png" href="src/images/ico.png"/>
     <!-- slider stylesheet -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+    
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -24,311 +26,134 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
     <!-- responsive style -->
     <link href="css/responsive.css" rel="stylesheet" />
-    <script src="js/index.js"></script>
+    <link href="css/common.css" rel="stylesheet" />
+    
 </head>
 
 <body class="sub_page">
 
-<div class="hero_area">
-    <!-- header section strats -->
-    <header class="header_section">
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg custom_nav-container ">
-                <a class="navbar-brand" href="/">
-            <span>
-              Seotech
-            </span>
-                </a>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="s-1"> </span>
-                    <span class="s-2"> </span>
-                    <span class="s-3"> </span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="d-flex mx-auto flex-column flex-lg-row align-items-center">
-                        <ul class="navbar-nav  ">
-                            <li class="nav-item ">
-                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="/login" > Login</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="/signup"> SignUp </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contactLink">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="quote_btn-container ">
-                        <a href="">
-                            <img src="images/call.png" alt="">
-                            <span>
-                  Call : + 01 1234567890
-                </span>
-                        </a>
-                        <form class="form-inline">
-                            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <!-- end header section -->
-</div>
-
-<!-- service section -->
-<section class="service_section layout_padding">
-    <div class="container-fluid">
-        <div class="heading_container">
-            <h2>
-                Our Services
-            </h2>
-            <p>
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-        <div class="service_container">
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/s-1.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        Brand Promotion
-                    </h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/s-2.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        Video Marketing
-
-                    </h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/s-3.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        Site Analysis
-                    </h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/s-4.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        Social Media Marketing
-                    </h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    </p>
-                </div>
-            </div>
-            <div class="box">
-                <div class="img-box">
-                    <img src="images/s-5.png" alt="">
-                </div>
-                <div class="detail-box">
-                    <h5>
-                        SEO Optimization
-                    </h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="btn-box">
-            <a href="">
-                Read More
-            </a>
+    <!-- Loader -->
+ <div class="loader_bg">
+    <div class="loader">
+        <div class="custom-loader">
         </div>
     </div>
-</section>
-<!-- end service section -->
+ </div>
+    <!-- end loader -->
 
-<div class="footer_bg">
+    <div class="header_section2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="logo"><a href="/"><img src="src/images/logo-autousim.png"></a></div>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+              <form class="form-inline my-2 my-lg-0">
+                 <div class="search_icon"><a href="/login"><img src="src/images/person-2.png"></a></div>
+              </form>
+           </div>
+        </nav>
 
-    <!-- contact section -->
-    <section class="contact_section layout_padding" id="contactLink">
-        <div class="container">
-            <div class="heading_container">
-                <h2>
-                    Get In touch
-                </h2>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" id="inputName4" placeholder="Name ">
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 mb-5">
+            <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="w-100" src="src/images/background-1.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">AUTO GUARD</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">“DIGITALIZING THE WORLD FOR BRIGHTER FUTURE”</h1>
+                                <a href="/login" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Login</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                             </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email id">
-                            </div>
-
                         </div>
-                        <div class="form-row">
-                            <div class="form-group col">
-                                <input type="text" class="form-control" id="inputSubject4" placeholder="Subject">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="inputMessage" placeholder="Message">
-                        </div>
-                        <div class="d-flex justify-content-center">
-                            <button type="submit" class="">Send</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- end contact section -->
-
-
-
-    <!-- info section -->
-    <section class="info_section layout_padding2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="info_logo">
-                        <h3>
-                            Seotech
-                        </h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor indidunt ut labore et
-                            dolore magna
-                        </p>
                     </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="info_links">
-                        <h4>
-                            BASIC LINKS
-                        </h4>
-                        <ul class="  ">
-                            <li class=" ">
-                                <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="">
-                                <a class="" href="about.html"> About</a>
-                            </li>
-                            <li class="active">
-                                <a class="" href="service.html"> Services </a>
-                            </li>
-                            <li class="">
-                                <a class="" href="#contactLink">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="info_contact">
-                        <h4>
-                            CONTACT DETAILS
-                        </h4>
-                        <a href="">
-                            <div class="img-box">
-                                <img src="images/telephone-white.png" width="12px" alt="">
+                    <div class="carousel-item">
+                        <img class="w-100" src="src/images/2.jpg" alt="Image">
+                        <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                            <div class="p-3" style="max-width: 700px;">
+                                <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">AUTO GUARD</h6>
+                                <h1 class="display-3 text-white mb-4 animated slideInDown">“DIGITALIZING THE WORLD FOR BRIGHTER FUTURE”</h1>
+                                <a href="/login" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Login</a>
+                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Contact Us</a>
                             </div>
-                            <p>
-                                +01 1234567890
-                            </p>
-                        </a>
-                        <a href="">
-                            <div class="img-box">
-                                <img src="images/envelope-white.png" width="18px" alt="">
-                            </div>
-                            <p>
-                                demo@gmail.com
-                            </p>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="info_form ">
-                        <h4>
-                            NEWSLETTER
-                        </h4>
-                        <form action="">
-                            <input type="email" placeholder="Enter your email">
-                            <button>
-                                Subscribe
-                            </button>
-                        </form>
-                        <div class="social_box">
-                            <a href="">
-                                <img src="images/info-fb.png" alt="">
-                            </a>
-                            <a href="">
-                                <img src="images/info-twitter.png" alt="">
-                            </a>
-                            <a href="">
-                                <img src="images/info-linkedin.png" alt="">
-                            </a>
-                            <a href="">
-                                <img src="images/info-youtube.png" alt="">
-                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+        <!-- Carousel End -->
 
-    <!-- end info_section -->
-
-
-    <!-- footer section -->
-    <section class="container-fluid footer_section">
-        <div class="container">
-            <p>
-                &copy; <span id="displayYear"></span> All Rights Reserved By
-                <a href="https://html.design/">Free Html Templates</a>
-            </p>
+        <!--  footer -->
+      <footer >
+        <div class="footer">
+           <div class="container">
+              <div class="row">
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+                    <a class="logo2" href="home.html"><img src="src/images/logo-autousim.png" alt="#"/></a>
+                    <div class="follow">
+                       <p>At Secure Gate, we are dedicated to pushing boundaries, discovering untapped opportunities, and charting new paths in the business world. As a forward-thinking organization, we embrace innovation and collaboration to drive success.</p>
+                    </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3>Quick link</h3>
+                    <ul class="link_icon">
+                       <li class="active"> <a href="#"> <i class="fa fa-chevron-right" aria-hidden="home.html"></i>Home</a></li>
+                       <li> <a href="#"> <i class="fa fa-chevron-right" aria-hidden="blog"></i>About </a></li>
+                       <li> <a href="#"> <i class="fa fa-chevron-right" aria-hidden="contact"></i>Subscribe</a></li>
+                    </ul>
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3>Instagram </h3>
+                    <div class="follow">
+                       <p>Will Be Updated.....&nbsp;&nbsp; </p>
+                       <ul class="social_icon">
+                         <li> <a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                          <li> <a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li> <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                          <li> <a href="#"><i class="fa fa-instagram"></i></a></li>
+                       </ul>
+                    </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h3>Contact us</h3>
+                    <ul class="location_icon">
+                       <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>Under Developement<br>
+                          
+                       </li>
+                       <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>demo@gmail.com</li>
+                       <li><a href="#"><i class="fa fa-volume-control-phone" aria-hidden="true"></i></a>+60 11111111</li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+           <div class="copyright">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                       <p>Copyright 2023 All Right Reserved By<a href="#"> Secure Gate</a></p>
+                    </div>
+                 </div>
+              </div>
+           </div>
         </div>
-    </section>
-    <!-- footer section -->
+     </footer>
+     <!-- end footer -->
+   </div>
+ <script src="js/index.js"></script>
+ <script src="js/common.js"></script>
+ <!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-</div>
+<!-- OwlCarousel2 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
-
+<!-- Bootstrap carousel -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
 </body>
-
-</html>
